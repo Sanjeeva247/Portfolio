@@ -22,7 +22,7 @@ export async function GET(req: NextRequest) {
       APP_ID,
       APP_CERTIFICATE,
       userId,
-      Agora.RtmRole.RtmUser,
+      Agora.RtmRole.Rtm_User,
       currentTimestamp + expirationTimeInSeconds
     );
 
