@@ -1,0 +1,492 @@
+*{
+    background-color: black;
+    color: azure;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+}
+.nav{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 180px;
+    margin-bottom: 80px;
+}
+.navbar{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.navbar:hover{
+    color: orange;
+    text-decoration-line: underline;
+}
+.emoji{
+    width: 50px;
+    transform: rotate(0deg);
+    transition: ease-in-out;
+    animation-duration: 0.5s;
+    animation-name: emoji;
+    background-color: black;
+    margin-bottom: 10px;
+}
+  .firstline{
+    display: inline;
+    margin-left: 350px;
+    }
+  .home1{
+    display: inline;
+  }
+@keyframes emoji {
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(45deg);}
+    50%{transform: rotate(90deg);}
+    75%{transform: rotate(45deg);}
+    100%{transform: rotate(0deg);}
+
+    
+}
+.line{
+    width: 250px;
+    height: 3px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;
+
+  }
+  
+  
+  
+  @keyframes mymove {
+    from {left: 200px; width: 250px;}
+    to {left: 0px; width: 0px;}
+  }
+  h2{
+    width: 250px;
+  }
+  .left{
+    margin-left: 200px;
+  }
+  .secondline{
+    width: 300px;
+    position: relative;
+    animation: mymove 1s;
+    margin-left: 0px;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;
+
+  }
+  
+  
+  
+  @keyframes mymove {
+    from {left: 200px; width: 300px;}
+    to {left: 0px; width: 300px;}
+    
+  }
+
+  .thirdline{
+    width: 300px;
+    position: relative;
+    color: yellow;
+    animation: mymove 1s;
+    margin-left: 0px;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;
+
+  }
+  
+  
+  
+  @keyframes mymove {
+    from {left: 200px; width: 300px;}
+    to {left: 0px; width: 300px;}
+    
+  }
+  h3{
+    color: aquamarine;
+  }
+  .home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 100px;
+  }
+  .right{
+    margin-left: 200px;
+  }
+  .firstimage{
+    height: 450px;
+    width: 300px;
+    border-radius: 15%;
+    position: relative;
+    animation: mymove 1s;
+    margin-left: 0px;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;
+
+  }
+
+  @keyframes mymove {
+    from {left: 200px; width: 300px;}
+    to {left: 0px; width: 300px;}
+  }
+  a{
+    height: 30px;
+  }
+   .resume{
+    height: 25px;
+    width: 130px;
+    padding: 10px;
+    border-radius: 8%;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-decoration-line: line-through;
+  } 
+  .resume:hover{
+    color: black;
+    background-color: gold;
+    text-decoration: none;
+    
+}
+  .click{
+    color: aqua;
+  }
+  .projects{
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+  .pimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+  }
+  .projects1{
+    height: 100px;
+    width: 400px;
+    box-sizing: border-box;
+    border-color: aqua;
+  }
+  .projectimg{
+    height: 450px;
+    width: 300px;
+    border-radius: 15%;
+  }
+  .tline{
+    width: 150px;
+    height: 3px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    background-color: yellow;
+    position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;
+
+  }
+  
+  
+  
+  @keyframes mymove {
+    from {left: 200px; width: 150px;}
+    to {left: 0px; width: 0px;}
+  }
+  .tiline{
+      width: 300px;
+      position: relative;
+      animation: mymove 1s;
+      margin-left: 500px;
+      animation-fill-mode: backwards;
+      animation-timing-function: ease-out;
+  
+    }
+    
+    
+    
+    @keyframes mymove {
+      from {left: 200px; width: 300px;}
+      to {left: 0px; width: 300px;}
+      
+    }
+    .projectimg1{
+      height: 100px;
+      width: 100px;
+      margin-left: 100px;
+      border-radius: 5%;
+    }
+  .subproject1{
+    margin: 100px;
+    display: flex;
+
+  }
+  a{
+    text-decoration: none;
+  }
+  .ptext1{
+    display: inline;
+    margin-left: 30px;
+    font-weight: bolder;
+    margin-top: 45px;
+  }
+  .skills{
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+  .rightside{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.bars{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 1rem;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+}
+.light-bar{
+  position: absolute;
+  bottom: 0;
+  background-color: hsla(260, 100%, 44%, 44%);
+  height: 0.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.percentage-bar{
+  position: absolute;
+  bottom: 0;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--main-color);
+}
+.leftside img{
+  width: 70%;
+  margin-left: 6rem;
+}
+.Skills img{
+  height: 125px;
+  width: 125px;
+  border-radius: 5%;
+  margin: 10px;
+}
+
+.inside{
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+}
+.l{
+    display: inline;
+    height: fit-content;
+    margin-left: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+    width: 100px;
+}
+.r{
+  display: inline;
+  height: fit-content;
+  margin-left: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+  width: 100px;
+}
+.lefts{
+  margin-left: 18rem;
+  
+}
+.rights{
+  margin-left: 5rem;
+  margin-right: 15rem;
+  display: inline;
+}
+.leftside{
+  display: inline;
+}
+.tline1{
+  width: 200px;
+  height: 3px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+  background-color: yellow;
+  position: relative;
+  animation: mymove 1s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+
+}
+
+
+
+@keyframes mymove {
+  from {left: 200px; width: 150px;}
+  to {left: 0px; width: 0px;}
+}
+.tiline1{
+  width: 400px;
+  position: relative;
+  animation: mymove 1s;
+  margin-top: 100px;
+  margin-left: 500px;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+
+}
+
+
+
+@keyframes mymove {
+  from {left: 200px; width: 300px;}
+  to {left: 0px; width: 300px;}
+  
+}
+.education{
+  margin-top: 25px;
+}
+.skills{
+  margin-bottom: 25px;
+}
+.in{
+  margin-left: 200px;
+  cursor: grab;
+}
+.bxl-linkedin-square{
+  margin-left: 120px;
+  color: skyblue;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+}
+h4{
+  margin-left: 120px;
+}
+.bxs-phone{
+  color: greenyellow;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+}
+.bxl-gmail{
+  color: crimson;
+  font-size: large;
+  font-weight: bolder;
+  font-style: italic;
+}
+.bxs-file-pdf{
+  color: gold;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+}
+.bxl-github{
+  color: aqua;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+}
+.a{
+  margin-left: 50px;
+}
+.b{
+  margin-left: 45px;
+}
+.c{
+  margin-left: 48px;
+}
+p{
+  margin-left: 150px;
+}
+
+.linkedin:hover{
+  color: skyblue;
+}
+.github:hover{
+  color: aqua;
+}
+.resume1:hover{
+  color: gold;
+}
+.gmail:hover{
+  color: crimson;
+}
+.phone:hover{
+  color: greenyellow;
+}
+.ptext1:hover{
+  color: aqua;
+}
+p:hover{
+  color: gold;
+}
+.bxs-sun{
+  color: azure;
+  margin-left: 20px;
+  font-weight: 900;
+}
+.bxs-sun:hover{
+  color: gold;
+}
+.firstline:hover,.secondline:hover,.thirdline:hover{
+  color: orange;
+}
+body {
+  margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+}
+
+body::before {
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+@media (min-width: 576px) {
+  body::before {
+    background-color: azure;
+    color: black;
+  }
+}
+@media (min-width: 992px) {
+  body::before {
+    background-color: azure;
+    color: black;
+  }
+}
+@media (min-width: 1400px) {
+  body::before {
+    background-color: azure;
+    color: black;
+  }
+}
+.bxs-moon{
+  color: black;
+  margin-left: 15px;
+  font-weight: bolder;
+}
+.bxs-moon:hover{
+  color: white;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
+}
+.material{
+  margin-top: 10px;
+}
