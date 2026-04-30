@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\cursor_shared.py
+# hypothesis_version: 6.131.15
+
+[128, 136, 175, 237, 17406, 28617, 'await_data', 'exhaust', 'no_timeout', 'oplog_replay', 'partial', 'secondary_okay', 'tailable_cursor']

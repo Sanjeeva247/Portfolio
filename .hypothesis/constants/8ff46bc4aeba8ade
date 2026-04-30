@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\synchronous\pool.py
+# hypothesis_version: 6.131.15
+
+[0.0, 120, 1000, 10107, 7200000, ' CLOSED', '$clusterTime', '%s:%d: %s', ')', '.', '.sock', 'AF_UNIX', 'DEFAULT', 'KeepAliveInterval', 'KeepAliveTime', 'SOCK_CLOEXEC', 'TCP_KEEPCNT', 'TCP_KEEPIDLE', 'TCP_KEEPINTVL', 'a_wrap_socket', 'admin', 'client', 'code', 'compression', 'configured timeouts', 'connectTimeoutMS', 'errmsg', 'getaddrinfo failed', 'helloOk', 'inf', 'loadBalanced', 'localhost', 'maxAwaitTimeMS', 'maxTimeMS', 'not primary', 'ok', 'saslSupportedMechs', 'socketTimeoutMS', 'timed out', 'timeoutMS', 'topologyVersion', 'win32']

@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\aiosmtplib\protocol.py
+# hypothesis_version: 6.131.15
+
+[b'\n', b'\r\n', b' ', b' \t\r\n', b'(?:\\r\\n|\\n|\\r(?!\\n))', b'(?m)^\\.', b'-', b'.\r\n', b'..', b'DATA\r\n', b'QUIT\r\n', b'STARTTLS\r\n', 8192, 'Already using TLS.', 'Connection lost', 'Response too long', 'SMTPProtocol', 'Server not connected', 'asyncio.Future[None]', 'sslcontext', 'surrogateescape', 'utf-8', 'write']

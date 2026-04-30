@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\_client_bulk_shared.py
+# hypothesis_version: 6.131.15
+
+['Transaction numbers', 'code', 'errmsg', 'error', 'idx', 'nDeleted', 'nInserted', 'nMatched', 'nModified', 'nUpserted', 'op', 'writeConcernErrors', 'writeErrors']

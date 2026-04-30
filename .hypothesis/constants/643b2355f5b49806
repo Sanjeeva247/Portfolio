@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\mongomock\database.py
+# hypothesis_version: 6.131.15
+
+[1.0, 10026, 10027, '\x00', '$', '$eq', '$ne', '$regex', '.', '..', '3.12', '4.0', '_', '_id', 'collection', 'id', 'name', 'ok', 'ping', 'read_preference', 'system.']

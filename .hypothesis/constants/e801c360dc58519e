@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\mongomock\helpers.py
+# hypothesis_version: 6.131.15
+
+[1000, 27017, 65535, '%s_%s', ',', ', ', '.', '.sock', '/', '4.0', '?', 'UTC', '[', ']', '_', 'database', 'mongodb://', 'nodelist', '{}({})']

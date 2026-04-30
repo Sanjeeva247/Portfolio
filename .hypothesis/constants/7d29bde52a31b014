@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pydantic_settings\utils.py
+# hypothesis_version: 6.131.15
+
+['FIFO', 'block device', 'char device', 'directory', 'file', 'mount point', 'path does not exist', 'socket', 'symlink', 'unknown']

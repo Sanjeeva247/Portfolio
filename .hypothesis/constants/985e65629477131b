@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\uri_parser.py
+# hypothesis_version: 6.131.15
+
+[27017, 65535, '%', '&', ',', '.', '.sock', '/', '/ "$', ':', ';', '=', '?', '@', '[', ']', ']:', '__main__', 'authSource', 'authsource', 'collection', 'connectTimeoutMS', 'database', 'directConnection', 'directconnection', 'false', 'fqdn', 'loadBalanced', 'loadbalanced', 'mongodb+srv://', 'mongodb://', 'nodelist', 'options', 'password', 'python', 'readpreferencetags', 'removed', 'renamed', 'replicaSet', 'replicaset', 'srvMaxHosts', 'srvServiceName', 'ssl', 'tls', 'tlsInsecure', 'tlscrlfile', 'tlsinsecure', 'true', 'username']

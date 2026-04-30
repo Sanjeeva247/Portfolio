@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\aiosmtplib\auth.py
+# hypothesis_version: 6.131.15
+
+[b'\x00', b' ', 'ascii', 'auth_crammd5_verify', 'auth_login_encode', 'auth_plain_encode', 'md5', 'utf-8']

@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\gridfs\grid_file_shared.py
+# hypothesis_version: 6.131.15
+
+[b'\n', 255, 1024, 100000, '$set', 'DEPRECATED,', '_id', 'filename', 'files_id', 'length', 'n', 'uploadDate', '{}\n\n{}']

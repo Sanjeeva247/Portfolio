@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\auth_shared.py
+# hypothesis_version: 6.131.15
+
+[b',', b',r=', b'=', b'=2C', b'=3D', b'n,,', b'n=', '$external', '*.mongodb-dev.net', '*.mongodb-qa.net', '*.mongodb.net', '*.mongodbgov.net', '127.0.0.1', '::1', 'ALLOWED_HOSTS', 'AWS_SESSION_TOKEN', 'DEFAULT', 'ENVIRONMENT', 'GSSAPI', 'GSSAPIProperties', 'MONGODB-AWS', 'MONGODB-CR', 'MONGODB-OIDC', 'MONGODB-X509', 'MongoCredential', 'OIDC_CALLBACK', 'OIDC_HUMAN_CALLBACK', 'PLAIN', 'SCRAM-SHA-1', 'SCRAM-SHA-256', 'SERVICE_NAME', 'SERVICE_REALM', 'TOKEN_RESOURCE', '_AWSProperties', '_Cache', 'admin', 'autoAuthorize', 'aws_session_token', 'azure', 'cache', 'data', 'gcp', 'localhost', 'mechanism', 'mechanism_properties', 'mongodb', 'options', 'password', 'payload', 'saslStart', 'service_name', 'service_realm', 'skipEmptyExchange', 'source', 'test', 'username', 'utf-8']

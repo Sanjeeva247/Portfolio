@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\aiosmtplib\email.py
+# hypothesis_version: 6.131.15
+
+['"', '8bit', 'Bcc', 'Cc', 'From', 'Resent-Bcc', 'Resent-Cc', 'Resent-Date', 'Resent-From', 'Resent-Sender', 'Resent-To', 'Sender', 'To', '[\\\\"]', '[][\\\\()<>@,:;".]', '\\\\\\g<0>', 'ascii', 'extract_recipients', 'extract_sender', 'flatten_message', 'parse_address', 'quote_address', 'utf-8']

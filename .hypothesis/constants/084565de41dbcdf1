@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\synchronous\encryption.py
+# hypothesis_version: 6.131.15
+
+[0.001, 443, 10000, '$$REMOVE', '$$this', '$addToSet', '$cond', '$currentDate', '$eq', '$filter', '$keyAltNames', '$ne', '$set', '.', 'Database', 'Indexed', 'MongoClient', 'Range', 'RangePreview', 'Unindexed', '_id', 'check_exists', 'cond', 'enable_range_v2', 'encryptedFields', 'equality', 'fields', 'input', 'keyAltNames', 'keyId', 'keyMaterial', 'majority', 'masterKey', 'mongocryptd', 'range', 'timed out', 'updateDate', 'v']

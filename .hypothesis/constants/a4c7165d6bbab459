@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\encryption_options.py
+# hypothesis_version: 6.131.15
+
+['encrypted_fields_map', 'max', 'min', 'mongocryptd', 'precision', 'sparsity', 'trimFactor']

@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\write_concern.py
+# hypothesis_version: 6.131.15
+
+[', ', 'WriteConcern({})', '__acknowledged', '__document', '__server_default', 'fsync', 'j', 'w', 'wtimeout', '{}={}']

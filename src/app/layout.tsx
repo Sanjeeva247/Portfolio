@@ -20,15 +20,15 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'AMAZE KNOWLEDGE PLANET VIRTUAL LEARNING',
-  description: 'Empower Your Mind to Achieve More Than Just Marks',
-  authors: [{ name: 'i2Global' }],
-  creator: 'i2Global Team',
+  title: 'Sanjeeva Kumar - Software Engineer',
+  description: 'Full Stack Web Developer specializing in React, Node.js, and cloud technologies. Passionate about building scalable and performant web applications.',
+  authors: [{ name: 'sanjeeva' }],
+  creator: 'sanjeeva',
   openGraph: {
-    title: 'AMAZE KNOWLEDGE PLANET VIRTUAL LEARNING',
-    description: 'Empower Your Mind to Achieve More Than Just Marks',
-    url: 'AMAZE.com',
-    siteName: 'AMAZE'
+    title: 'Sanjeeva Kumar - Software Engineer',
+    description: 'Full Stack Web Developer specializing in React, Node.js, and cloud technologies. Passionate about building scalable and performant web applications.',
+    url: 'https://sanjeevakumar.com',
+    siteName: 'Sanjeeva Kumar Portfolio',
   }
 };
 

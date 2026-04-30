@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\mongomock\write_concern.py
+# hypothesis_version: 6.131.15
+
+['fsync', 'j', 'w', 'wtimeout']

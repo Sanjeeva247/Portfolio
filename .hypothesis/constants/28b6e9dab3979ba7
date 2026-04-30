@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\helpers_shared.py
+# hypothesis_version: 6.131.15
+
+[134, 189, 262, 391, 9001, 10058, 10107, 11000, 11001, 11600, 11602, 12582, 13435, 13436, '$err', '_', 'authenticate', 'code', 'copydb', 'copydbgetnonce', 'copydbsaslstart', 'createuser', 'errmsg', 'errorLabels', 'getnonce', 'node is recovering', 'ok', 'raw', 'saslcontinue', 'saslstart', 'updateuser', 'writeConcernError', 'writeErrors', '{}_{}']

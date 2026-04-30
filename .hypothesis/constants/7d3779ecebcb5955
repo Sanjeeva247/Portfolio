@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\collation.py
+# hypothesis_version: 6.131.15
+
+[', ', 'Collation({})', '__document', 'alternate', 'backwards', 'caseFirst', 'caseLevel', 'locale', 'lower', 'maxVariable', 'non-ignorable', 'normalization', 'numericOrdering', 'off', 'punct', 'shifted', 'space', 'strength', 'upper']

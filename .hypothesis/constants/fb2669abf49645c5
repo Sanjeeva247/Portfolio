@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\mongomock_motor\patches.py
+# hypothesis_version: 6.131.15
+
+[11000, 'key', 'keyPattern', 'keyValue', 'sparse', 'unique']

@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\fastapi\openapi\constants.py
+# hypothesis_version: 6.131.15
+
+['DELETE', 'GET', 'HEAD', 'PATCH', 'POST', 'PUT']

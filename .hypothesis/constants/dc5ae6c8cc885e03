@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\synchronous\auth_oidc.py
+# hypothesis_version: 6.131.15
+
+['$external', '*.', 'MONGODB-OIDC', 'conversationId', 'done', 'issuer', 'jwt', 'mechanism', 'n', 'payload', 'saslContinue', 'saslStart']

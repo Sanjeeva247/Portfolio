@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\mongomock\codec_options.py
+# hypothesis_version: 6.131.15
+
+['3.8', '4.0', '4.3', 'CodecOptions', 'datetime_conversion', 'document_class', 'strict', 'type_registry', 'tz_aware', 'tzinfo', 'uuid_representation']

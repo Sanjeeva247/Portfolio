@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\mongomock\__init__.py
+# hypothesis_version: 6.131.15
+
+['5.0.5', 'Collection', 'CollectionInvalid', 'Database', 'DuplicateKeyError', 'InvalidName', 'MONGODB', 'MongoClient', 'ObjectId', 'OperationFailure', 'SERVER_VERSION', 'WriteConcern', '__version__', 'ignore_feature', 'patch', 'warn_on_feature']

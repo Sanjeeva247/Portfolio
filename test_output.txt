@@ -1,0 +1,95 @@
+﻿python : C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pytest_a
+syncio\plugin.py:207: PytestDeprecationWarning: The configuration option 
+"asyncio_default_fixture_loop_scope" is unset.
+At line:1 char:1
++ python -m pytest backend/tests/test_properties.py -v --tb=short -p no ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\dinak\...cope" is unset. 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+The event loop scope for asynchronous fixtures will default to the fixture 
+caching scope. Future versions of pytest-asyncio will default the loop scope 
+for asynchronous fixtures to function scope. Set the default fixture loop 
+scope explicitly in order to avoid unexpected behavior in the future. Valid 
+fixture loop scopes are: "function", "class", "module", "package", "session"
+
+  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))
+============================= test session starts =============================
+platform win32 -- Python 3.12.3, pytest-8.3.5, pluggy-1.6.0
+rootdir: C:\Sanjeeva\video-meet\backend
+configfile: pytest.ini
+plugins: anyio-4.13.0, hypothesis-6.131.15, langsmith-0.7.22, asyncio-0.25.3
+asyncio: mode=Mode.AUTO, asyncio_default_fixture_loop_scope=None
+collected 14 items
+
+backend\tests\test_properties.py ...F.....F..FF                          [100%]
+
+================================== FAILURES ===================================
+____________________ test_property3_long_message_rejected _____________________
+backend\tests\test_properties.py:105: in test_property3_long_message_rejected
+    name=valid_name,
+E   hypothesis.errors.FailedHealthCheck: Data generation is extremely slow: Only produced 5 valid examples in 1.05 seconds (0 invalid ones and 16 exceeded maximum size). Try decreasing size of the data you're generating (with e.g. max_size or max_leaves parameters).
+E                    count | fraction |    slowest draws (seconds)
+E     long_message |   21  |     90%  |   0.058,  0.060,  0.063,  0.068,  0.096
+E        email     |   21  |      9%  |   0.005,  0.007,  0.007,  0.008,  0.020
+E         name     |   21  |      0%  |      --      --      --      --      -- 
+E   See https://hypothesis.readthedocs.io/en/latest/reference/api.html#health-checks for more information about this. If you want to disable just this health check, add HealthCheck.too_slow to the suppress_health_check settings for this test.
+--------------------------------- Hypothesis ----------------------------------
+You can add @seed(218696734509370905293565652799406376959) to this test or run pytest with --hypothesis-seed=218696734509370905293565652799406376959 to reproduce this failure.
+______________________ test_property1_insert_round_trip _______________________
+backend\tests\test_properties.py:203: in test_property1_insert_round_trip
+    @h_settings(max_examples=50)
+C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pytest_asyncio\plugin.py:1052: in inner
+    _loop.run_until_complete(task)
+C:\Program Files\Python312\Lib\asyncio\base_events.py:687: in run_until_complete
+    return future.result()
+backend\tests\test_properties.py:226: in test_property1_insert_round_trip
+    assert doc["created_at"].tzinfo is not None  # UTC-aware
+E   assert None is not None
+E    +  where None = datetime.datetime(2026, 4, 30, 19, 8, 50, 44000).tzinfo
+E   Falsifying example: test_property1_insert_round_trip(
+E       name='0',
+E       email='N@A.nr',
+E       message='0',
+E   )
+___________________ test_property7_rate_limit_window_reset ____________________
+backend\tests\test_properties.py:300: in test_property7_rate_limit_window_reset
+    @h_settings(max_examples=50, deadline=None)
+backend\tests\test_properties.py:334: in test_property7_rate_limit_window_reset
+    with pytest.raises(HTTPException):
+E   Failed: DID NOT RAISE <class 'fastapi.exceptions.HTTPException'>
+E   Falsifying example: test_property7_rate_limit_window_reset(
+E       ip='0.0.0.0',  # or any other generated value
+E   )
+__________________ test_property9_email_body_contains_fields __________________
+backend\tests\test_properties.py:352: in test_property9_email_body_contains_fields
+    @h_settings(max_examples=50)
+C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pytest_asyncio\plugin.py:1052: in inner
+    _loop.run_until_complete(task)
+C:\Program Files\Python312\Lib\asyncio\base_events.py:687: in run_until_complete
+    return future.result()
+backend\tests\test_properties.py:374: in test_property9_email_body_contains_fields
+    await email_notifier_module.send_notification(name, email, message)
+backend\email_notifier.py:29: in send_notification
+    msg["Subject"] = f"New contact message from {name}"
+C:\Program Files\Python312\Lib\email\message.py:437: in __setitem__
+    self._headers.append(self.policy.header_store_parse(name, val))
+C:\Program Files\Python312\Lib\email\policy.py:146: in header_store_parse
+    raise ValueError("Header values may not contain linefeed "
+E   ValueError: Header values may not contain linefeed or carriage return characters
+E   Falsifying example: test_property9_email_body_contains_fields(
+E       name='\x1e0',
+E       email='O@A.mk',
+E       message='0',
+E   )
+E   Explanation:
+E       These lines were always and only run by failing examples:
+E           C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pytest_asyncio\plugin.py:1053
+E           C:\Program Files\Python312\Lib\email\policy.py:146
+=========================== short test summary info ===========================
+FAILED backend\tests\test_properties.py::test_property3_long_message_rejected
+FAILED backend\tests\test_properties.py::test_property1_insert_round_trip - a...
+FAILED backend\tests\test_properties.py::test_property7_rate_limit_window_reset
+FAILED backend\tests\test_properties.py::test_property9_email_body_contains_fields
+================== 4 failed, 10 passed in 125.03s (0:02:05) ===================

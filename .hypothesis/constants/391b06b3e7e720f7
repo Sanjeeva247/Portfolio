@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\asynchronous\topology.py
+# hypothesis_version: 6.131.15
+
+[100, 10107, ',', 'CLOSED ', 'No %s available', 'No %s found yet', 'clusterTime', 'code', 'counter', 'details', 'maxWireVersion', 'mongoses', 'ok', 'processId', 'replica set members', 'servers', 'serviceId', 'skip_file_prefixes', 'stacklevel', 'topologyVersion']

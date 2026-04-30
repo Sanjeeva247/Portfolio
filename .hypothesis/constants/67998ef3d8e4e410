@@ -1,0 +1,4 @@
+# file: C:\Users\dinak\AppData\Roaming\Python\Python312\site-packages\pymongo\synchronous\network.py
+# hypothesis_version: 6.131.15
+
+[2012, '.$cmd', '_DocumentOut', 'collation', 'connection closed', 'ok', 'operation cancelled', 'pending', 'readConcern', 'timed out']
