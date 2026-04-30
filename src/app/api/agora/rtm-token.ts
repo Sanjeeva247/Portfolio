@@ -1,4 +1,4 @@
-import type { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import Agora from "agora-access-token";
 
 const APP_ID = process.env.AGORA_APP_ID!;
