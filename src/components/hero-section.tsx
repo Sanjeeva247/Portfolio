@@ -52,12 +52,12 @@ export function HeroSection() {
             key={i}
             className="absolute w-1 h-1 bg-cyan-400/30 rounded-full"
             initial={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
+              x: `${Math.random() * 100}vw`,
+              y: `${Math.random() * 100}vh`,
             }}
             animate={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
+              x: `${Math.random() * 100}vw`,
+              y: `${Math.random() * 100}vh`,
             }}
             transition={{
               duration: Math.random() * 10 + 10,
