@@ -23,20 +23,25 @@ export function ContactSection() {
     setError(null);
 
     try {
-      console.log("entered")
-      const res = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000"}/api/contact`,
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(formData),
-        }
-      );
-      console.log("res",res)
+      const scriptUrl = process.env.NEXT_PUBLIC_CONTACT_FORM_SCRIPT_URL;
+      if (!scriptUrl) {
+        setError("Contact form is not configured. Please reach out via email.");
+        return;
+      }
+
+      const params = new URLSearchParams({
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      });
+
+      const res = await fetch(`${scriptUrl}?${params.toString()}`, {
+        method: "GET",
+      });
 
       const data = await res.json();
 
-      if (!res.ok) {
+      if (data.result !== "success") {
         setError(data.message ?? "Something went wrong. Please try again.");
         return;
       }
@@ -59,15 +64,15 @@ export function ContactSection() {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "sanjeeva@example.com", href: "mailto:sanjeeva@example.com" },
-    { icon: Phone, label: "Phone", value: "+91 98765 43210", href: "tel:+919876543210" },
+    { icon: Mail, label: "Email", value: "sanjeevakumarm945@gmail.com", href: "mailto:sanjeeva@example.com" },
+    { icon: Phone, label: "Phone", value: "+91 9515385297", href: "tel:+919876543210" },
     { icon: MapPin, label: "Location", value: "Bangalore, India", href: null },
   ];
 
   const socialLinks = [
-    { icon: Github, label: "GitHub", href: "https://github.com", color: "hover:text-purple-400" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com", color: "hover:text-blue-400" },
-    { icon: Mail, label: "Email", href: "mailto:sanjeeva@example.com", color: "hover:text-cyan-400" },
+    { icon: Github, label: "GitHub", href: "https://github.com/Sanjeeva247", color: "hover:text-purple-400" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/sanjeevakumarm", color: "hover:text-blue-400" },
+    { icon: Mail, label: "Email", href: "mailto:sanjeevakumarm945@gmail.com", color: "hover:text-cyan-400" },
   ];
 
   return (
